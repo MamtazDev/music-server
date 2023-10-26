@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { body } = require("express-validator");
-const IsAuthenticated = require("../middleware/IsAuthenticated");
+const IsAuthenticated = require("../middleware/isAuthenticated");
 const timelineController = require("../controllers/timelineController");
 
 /**

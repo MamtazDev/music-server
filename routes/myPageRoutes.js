@@ -1,7 +1,7 @@
 const express = require('express');
 const myPageController = require('../controllers/myPageController');
 //const authenticate = require('../middleware/authenticate');
-const IsAuthenticated = require("../middleware/IsAuthenticated");
+const IsAuthenticated = require("../middleware/isAuthenticated");
 
 const router = express.Router();
 

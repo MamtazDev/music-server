@@ -4,7 +4,7 @@ const router = express.Router();
 // Import the controller functions and middleware
 const authController = require("../controllers/authController");
 //const authenticate = require("../middleware/authenticate");
-const IsAuthenticated = require("../middleware/IsAuthenticated");
+const IsAuthenticated = require("../middleware/isAuthenticated");
 const { updateUser } = require("../controllers/userController");
 
 /**
